@@ -9,7 +9,7 @@ const Home = () => (
 
   <div>
     <Newsfeed />  
-    <TopFive />
+    <TopFive /> 
     <Video />
     <Trending />
     
@@ -18,3 +18,4 @@ const Home = () => (
 )
 
 export default Home
+

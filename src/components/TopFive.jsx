@@ -18,13 +18,15 @@ const TopFive = () => {
   }, [url]);
 
   return (
-    <div className='rounded-div'>
+    <>
+    <div className='border shadow-xl px-2 max-w-[1140px] w-full  mx-auto border-[#85bb65] flex sm:flex-col-1 md:flex-col-2 '>
+    <div className='px-5 border-r border-[#85bb65]'>
       <div className='flex flex-col md:flex-row justify-between pt-4 pb-6 text-center md:text-right '>
-      <h1 className='text-2xl font-bold mx-4 text-algn:center text-[#070707]'>Today's Top 5</h1>
-      <Link to='/SearchCrypto' className='bg-[#85bb65] text-white font-normal px-4 p-2 w-full shadow-md hover:shadow-lg lg:w-auto '>Top 100</Link>
-    </div>
+        <h1 className='text-2xl font-bold mx-2 text-algn:center text-[#070707]'>Today's Top 5</h1>
+        <Link to='/SearchCrypto' className='bg-[#85bb65] text-white font-normal px-6 mr-2 p-2 w-auto shadow-md hover:shadow-lg lg:w-auto '>Top 100</Link>
+      </div>
 
-      <table className='w-full border-collapse text-center'>
+      <table className='w-full border-collapse text-center '>
         <thead>
           <tr className='border-b'>
             <th></th>
@@ -35,19 +37,27 @@ const TopFive = () => {
             <th>24h</th>
             <th className='hidden md:table-cell'>24h Volume</th>
             <th className='hidden sm:table-cell'>Mkt</th>
-            <th>Last 7 Days</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='font-thin text-sm'>
           {coins
-            .filter((value) => {return value;
-})
+            .filter((value) => {
+              return value;
+            })
             .map((coin) => (
               <CoinItem key={coin.id} coin={coin} />
             ))}
         </tbody>
       </table>
     </div>
+        
+    <div className='px-4 max-w-[540px] w-full mx-auto '>
+    <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" className='w-[100%] h-[504px] pt-2 mt-2 pl-1'  ></iframe> {/*<iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" allowtransparency="true" style="border:0;background-color: transparent;width:100%;height:503px" ></iframe>*/}
+    </div>
+    
+    </div>
+    </>
+
   );
 };
 

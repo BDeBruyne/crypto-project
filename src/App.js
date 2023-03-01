@@ -29,7 +29,7 @@ function App() {
   return (
     
       <AuthContextProvider>
-        <Navbar />
+        <Navbar />        
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/searchCrypto' element={<SearchCrypto coins={coins} />} />
