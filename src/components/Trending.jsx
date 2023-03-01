@@ -14,15 +14,15 @@ const Trending = () => {
   }, []);
 
   return (
-    <div className='rounded-div mb-20 pt-4 pb-8 text-primary '>
-      <h1 className='text-2xl font-bold pb-4 text-[#070707]'>Trending Coins</h1>
+    <div className='rounded-div mb-8 py-2 text-primary '>
+      <h1 className='text-2xl font-bold pb-2 text-[#070707]'>Trending Coins</h1>
       <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-4 '>
         {trending.map((coin, idx) => (
-          <div key={idx} className='rounded-div flex justify-between p-4 hover:scale-105 ease-in-out duration-300'>
+          <div key={idx} className='border shadow-md px-2 max-w-[1140px] w-full mx-auto border-[#85bb65] flex justify-between p-4 hover:scale-95 ease-in-out duration-300'>
             <div className='flex w-full items-center justify-between'>
               <div className='flex'>
                 <img
-                  className='mr-4 rounded-full'
+                  className='mr-4'
                   src={coin.item.small}
                   alt='/'
                 />
