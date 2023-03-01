@@ -19,7 +19,7 @@ const TopFive = () => {
 
   return (
     <>
-    <div className='border shadow-xl px-2 max-w-[1140px] w-full  mx-auto border-[#85bb65] flex flex-col md:flex-row '>
+    <div className='shadow-xl px-2 max-w-[1140px] w-full  mx-auto border border-[#85bb65] flex flex-col md:flex-row '>
     <div className='px-2 border-r border-[#85bb65] max-w-[570px] '>
       <div className='flex flex-col md:flex-row justify-between pt-2 pb-6 text-center md:text-right '>
         <h1 className='text-2xl font-bold text-algn:center text-[#070707]'>Today's Top 5</h1>
