@@ -15,12 +15,12 @@ const Trending = () => {
   }, []);
 
   return (
-    <div className='flex flex-row border shadow-xl px-2 max-w-[1140px] w-full mx-auto border-[#85bb65] mt-9'>
+    <div className='flex flex-col sm:flex-row border shadow-xl px-2 max-w-[1140px] w-full mx-auto border-[#85bb65] mt-9'>
       <div className='px-2 max-w-[760px] w-full mx-auto mb-8 py-2 flex-col scrollbar-hide'>
       <iframe width="100%" height="319" src="https://www.feedgrabbr.com/inframe/?widgetid=7558c693cb8a23aa216f18aa8" title="news" className='flex mt-4 pt-1'  ></iframe>
       <iframe  width="96%" height="293" className='flex mx-auto pt-4' src="https://www.youtube.com/embed/rNi121-J_v0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
       </div>
-      <div className='pl-1 pr-5 max-w-[380px] w-full mx-automb-8 py-2'>
+      <div className='pl-1 pr-5 max-w-[380px] w-full mx-automb-8 py-2 mx-auto'>
         <h1 className='text-[15pt] font-bold pb-2 text-center text-[#070707]'>Trending Coins</h1>
         <div className='grid grid-cols'>
           {trending.map((coin, idx) => (
