@@ -10,10 +10,10 @@ const Home = () => (
 
   <div>
     <Newsfeed />  
-    <TopFive /> 
-    <Video />
-    <Thumbnails />
+    <TopFive />
     <Trending />
+    <Thumbnails />
+    
     
   </div>
 

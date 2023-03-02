@@ -20,15 +20,15 @@ const TopFive = () => {
   return (
     <>
     <div className='shadow-xl px-2 max-w-[1140px] w-full  mx-auto border border-[#85bb65] flex flex-col md:flex-row '>
-    <div className='px-2 border-r border-[#85bb65] max-w-[570px] '>
+    <div className='px-2 border-r border-[#85bb65] max-w-[740px] '>
       <div className='flex flex-col md:flex-row justify-between pt-2 pb-6 text-center md:text-right '>
-        <h1 className='text-2xl font-bold text-algn:center text-[#070707]'>Today's Top 5</h1>
+        <h1 className='text-[15pt] font-bold text-algn:center text-[#070707] mt-2'>Today's Top 5</h1>
         <Link to='/SearchCrypto' className='bg-[#85bb65] text-white font-normal px-2 p-2 w-auto shadow-md hover:shadow-lg lg:w-auto '>Top 100</Link>
       </div>
 
-      <table className='w-full border-collapse text-center '>
+      <table className='w-full  border-collapse text-center '>
         <thead>
-          <tr className='border-b'>
+          <tr className='border-b-2 border-[#85bb65]'>
             <th></th>
             <th className='px-4'>#</th>
             <th className='text-left'>Coin</th>
@@ -39,7 +39,7 @@ const TopFive = () => {
             <th className='hidden sm:table-cell'>Mkt</th>
           </tr>
         </thead>
-        <tbody className='font-thin text-sm'>
+        <tbody className='text-sm'>
           {coins
             .filter((value) => {
               return value;
@@ -51,8 +51,8 @@ const TopFive = () => {
       </table>
     </div>
         
-    <div className='px-2 max-w-[570px] w-full mx-auto '>
-    <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" className='w-[100%] h-[519px]  pb-4 pl-2'  ></iframe> {/*<iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" allowtransparency="true" style="border:0;background-color: transparent;width:100%;height:503px" ></iframe>*/}
+    <div className='max-w-[440px] w-full align-right mt-6 ml-3'>
+    <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" className='w-[100%] h-[506px] ' title='NewsFeed' ></iframe> {/*<iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" allowtransparency="true" style="border:0;background-color: transparent;width:100%;height:503px" ></iframe>*/}
     </div>
     
     </div>
