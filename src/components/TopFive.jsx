@@ -20,7 +20,7 @@ const TopFive = () => {
   return (
     <>
     <div className='shadow-xl px-2 max-w-[1140px] w-full  mx-auto border border-[#85bb65] flex flex-col md:flex-row '>
-    <div className='px-2 border-r border-[#85bb65] max-w-[740px] '>
+    <div className='px-2 md:border-r border-[#85bb65] max-w-[740px] '>
       <div className='flex flex-col md:flex-row justify-between pt-2 pb-6 text-center md:text-right '>
         <h1 className='text-[15pt] font-bold text-algn:center text-[#070707] mt-2'>Today's Top 5</h1>
         <Link to='/SearchCrypto' className='bg-[#85bb65] text-white font-normal px-2 p-2 w-auto shadow-md hover:shadow-lg lg:w-auto '>Top 100</Link>
