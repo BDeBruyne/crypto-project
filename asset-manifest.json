@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/crypto-project/static/css/main.4988e019.css",
-    "main.js": "/crypto-project/static/js/main.55c6d5de.js",
+    "main.css": "/crypto-project/static/css/main.decfaf76.css",
+    "main.js": "/crypto-project/static/js/main.37739549.js",
     "static/media/finlogo2.png": "/crypto-project/static/media/finlogo2.447cac336819e06d5a11.png",
     "index.html": "/crypto-project/index.html",
-    "main.4988e019.css.map": "/crypto-project/static/css/main.4988e019.css.map",
-    "main.55c6d5de.js.map": "/crypto-project/static/js/main.55c6d5de.js.map"
+    "main.decfaf76.css.map": "/crypto-project/static/css/main.decfaf76.css.map",
+    "main.37739549.js.map": "/crypto-project/static/js/main.37739549.js.map"
   },
   "entrypoints": [
-    "static/css/main.4988e019.css",
-    "static/js/main.55c6d5de.js"
+    "static/css/main.decfaf76.css",
+    "static/js/main.37739549.js"
   ]
 }
