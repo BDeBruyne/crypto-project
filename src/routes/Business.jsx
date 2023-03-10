@@ -4,20 +4,15 @@ import Thumbnails from '../components/Thumbnails'
 import TopFive from '../components/TopFive'
 import Trending from '../components/Trending'
 
+function Business() {
+  return (
+    <div>
+        <Newsfeed />  
+        <TopFive />
+        <Trending />
+        <Thumbnails />
+    </div>
+  )
+}
 
-
-const Home = () => (
-
-  <div>
-    <Newsfeed />  
-    <TopFive />
-    <Trending />
-    <Thumbnails />
-    
-    
-  </div>
-
-)
-
-export default Home
-
+export default Business

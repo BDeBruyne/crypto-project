@@ -35,16 +35,16 @@ const Navbar = () => {
     <div className='hidden lg:block'>
       <ul className='flex pt-16'>
           <li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
-            <Link to='/'>Home</Link>
+            <Link to='/'>Crypto</Link>
+          </li>         
+          <li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
+            <Link to='Business'>Business</Link>
           </li>
           <li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
-            <Link to='News'>News</Link>
+            <Link to='Tech'>Tech</Link>
           </li>
           <li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
-            <Link to='Video'>Video</Link>
-          </li>
-          <li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
-            <Link to='SearchCrypto'>Crypto Search</Link>
+            <Link to='SearchCrypto'>Coin Search</Link>
           </li>
       </ul>
     </div>

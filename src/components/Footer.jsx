@@ -37,8 +37,8 @@ const Footer = () => {
               <p className='text-center md:text-right'>Sign up for crypto news</p>
               <div className='py-4'>
                 <form>
-                  <input className='border border-[#85bb65] p-2 mr-2  shadow-md w-auto' type='email' placeholder='Enter your email' />
-                  <Link to='/signup' className='bg-[#85bb65] text-white font-normal px-4 p-2 w-full shadow-md hover:shadow-lg md:w-auto my-2'>Sign up</Link>
+                  <input className='border border-[#85bb65] p-2 mr-2  shadow-md w-[60%] sm:w-auto' type='email' placeholder='Enter your email' />
+                  <Link to='/signup' className='bg-[#85bb65] text-white font-normal px-4 p-2 mt-6 shadow-md hover:shadow-lg'>Sign up</Link>
                 </form>
               </div>
               <div className='flex pt-2 pb-4 justify-between text-[#070707]'>

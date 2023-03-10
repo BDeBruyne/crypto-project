@@ -10,8 +10,9 @@ import CoinPage from './routes/CoinPage';
 import Footer from './components/Footer';
 import { AuthContextProvider } from './context/AuthContext';
 import SearchCrypto from './routes/SearchCrypto';
-import News from './routes/News';
-import Video from './routes/Video';
+import Business from './routes/Business';
+import Tech from './routes/Tech';
+
 
 function App() {
   const [coins, setCoins] = useState([]);
@@ -31,10 +32,10 @@ function App() {
       <AuthContextProvider>
         <Navbar />        
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/searchCrypto' element={<SearchCrypto coins={coins} />} />
-          <Route path='/news' element={<News />} />
-          <Route path='/video' element={<Video />} />
+          <Route path='/' element={<Home />} />                
+          <Route path='/business' element={<Business />} />
+          <Route path='/tech' element={<Tech />} />
+          <Route path='/searchCrypto' element={<SearchCrypto coins={coins} />} />    
           <Route path='/signin' element={<Signin />} />
           <Route path='/signup' element={<Signup />} />
           <Route path='/account' element={<Account />} />
