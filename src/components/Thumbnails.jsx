@@ -7,7 +7,7 @@ const Thumbnails = () => {
         </div>
 
         <div className='mt-8'></div><div className=' max-w-[1140px]  w-full mx-auto text-primary shadow-xl mb-8 border border-[#85bb65]'>
-            <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=cc2a71c87683f30ba9b48ba58" title='Thumbnails' className="flex max-w-[1140px] w-[100%] h-[438px] mx-auto p-0"></iframe>
+            <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=cc2a71c87683f30ba9b48ba58" title='Thumbnails' className="flex max-w-[1140px] w-[100%] h-[626px] mx-auto pb-"></iframe>
         </div></>
       )
     }
