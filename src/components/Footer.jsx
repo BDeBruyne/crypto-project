@@ -11,23 +11,13 @@ const Footer = () => {
   return (
     <div className='px-2 max-w-[1140px] w-full mx-auto mt-8 pt-8 mb-12 text-primary border-t-2 border-[#85bb65]'>
       <div className='grid md:grid-cols-2'>
-        <div className='flex justify-evenly w-full md:max-w-[300px] uppercase'>
-          <div>
-            <h2 className='font-bold text-[#070707]'>Support</h2>
+        <div className='flex justify-c w-full md:max-w-[300px] uppercase'>
+          <div>            
             <ul>
-              <li className='text-sm py-2'>Help Center</li>
-              <li className='text-sm py-2'>Contact Us</li>
-              <li className='text-sm py-2'>API Status</li>
-              <li className='text-sm py-2'>Documentation</li>
-            </ul>
-          </div>
-          <div>
-            <h2 className='font-bold text-[#070707]'>Info</h2>
-            <ul>
-              <li className='text-sm py-2'>About Us</li>
-              <li className='text-sm py-2'>Careers</li>
-              <li className='text-sm py-2'>Invest</li>
-              <li className='text-sm py-2'>Legal</li>
+              <li className='text-sm font-bold-light py-2 px-2'>About Us</li>
+              <li className='text-sm font-bold-light py-2 px-2'>Contact Us</li>
+              <li className='text-sm font-bold-light py-2 px-2'>Careers</li>              
+              <li className='text-sm font-bold-light py-2 px-2'>Legal</li>
             </ul>
           </div>
         </div>

@@ -80,17 +80,17 @@ const Navbar = () => {
       >
         <ul className='w-full p-4'>
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
-            <Link to='/'>Home</Link>
+            <Link to='/'>Crypto</Link>
           </li>
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
-            <Link to='/'>News</Link>
+            <Link to='Business'>Business</Link>
+          </li>
+          <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
+            <Link to='Tech'>Tech</Link>
           </li>
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='SearchCrypto'>Crypto Search</Link>
-          </li>
-          <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
-            <Link to='Video'>Video</Link>
-          </li>
+          </li>         
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='/account'>Account</Link>
           </li>
