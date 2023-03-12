@@ -31,8 +31,8 @@ function Business() {
       <iframe  width="100%" height="311px" className='flex pt-3' src="https://www.youtube.com/embed/z6mrjWWdJhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
       <iframe  width="100%" height="311px" className='flex pt-3 pb-3' src="https://www.youtube.com/embed/khAt5UqzvI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>     
       </div>
-      <div className=''></div><div className='flex w-full '>
-            <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=667f1220b3b1afbdfe740b082" title='Thumbnails' className="flex w-[100%] h-[620px] "></iframe>
+      <div className=''></div><div className='flex w-full pt-1'>
+            <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=667f1220b3b1afbdfe740b082" title='Thumbnails' className="flex w-[100%] h-[616px] "></iframe>
             {/*<iframe src="https://www.feedgrabbr.com/inframe/?widgetid=667f1220b3b1afbdfe740b082" allowtransparency="true" style="border:0;background-color: transparent;width:100%;height:900px" ></iframe>*/}
         </div>
       
