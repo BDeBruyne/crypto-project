@@ -52,7 +52,7 @@ const TopFive = () => {
     </div>
         
     <div className='max-w-[440px] w-full align-right mt-6 ml-3'>
-    <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" className='w-[100%] h-[506px]' title='NewsFeed' ></iframe> {/*<iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" allowtransparency="true" style="border:0;background-color: transparent;width:100%;height:503px" ></iframe>*/}
+    <iframe src="https://www.feedgrabbr.com/inframe/?widgetid=539ddecc47ca4ccce59efefc4" className='w-[100%] h-[506px]' title='NewsFeed' ></iframe>
     </div>
     
     </div>
