@@ -22,7 +22,7 @@ const Tech = () => {
             <div className='w-full sm:w-[50%] h-[933px] mx-auto flex-col px-3'>
               <iframe  width="100%" height="311px" className='flex pt-3' src="https://www.youtube.com/embed/pOmpqdlVCoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
               <iframe  width="100%" height="311px" className='flex pt-3 ' src="https://www.youtube.com/embed/jJpCB5Puubs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
-              <iframe  width="100%" height="311px" className='flex pt-3 pb-3' src="https://www.youtube.com/embed/3DMKp_2pxeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>     
+              <iframe  width="100%" height="311px" className='flex pt-3 pb-3' src="https://www.youtube.com/embed/S9tnPr4KIEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>     
             </div>
         </div>
 
@@ -37,11 +37,9 @@ const Tech = () => {
         </div>
 
         <div className='flex flex-col sm:flex-row mt-8 max-w-[1140px]  w-full  mx-auto text-primary shadow-xl mb-8 border border-[#85bb65]'>
-          
-
             <div className='w-full sm:w-[50%] h-[622px] mx-auto flex-col px-3'>             
-              <iframe  width="100%" height="311px" className='flex pt-3 ' src="https://www.youtube.com/embed/S9tnPr4KIEA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
-              <iframe  width="100%" height="311px" className='flex pt-3 pb-3' src="https://www.youtube.com/embed/d60kfCDJKRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>     
+              <iframe  width="100%" height="311px" className='flex pt-3 ' src="https://www.youtube.com/embed/d60kfCDJKRs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>
+              <iframe  width="100%" height="311px" className='flex pt-3 pb-3' src="https://www.youtube.com/embed/3DMKp_2pxeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>     
             </div>  
             
             <div className='sm:w-[50%] sm:border border-r-[#85bb65] pt-1'>
@@ -50,7 +48,7 @@ const Tech = () => {
             </div>
         </div>
       
-      {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/xPl8H2jZ_UI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+      {/*<iframe width="560" height="315" src="https://www.youtube.com/embed/3DMKp_2pxeI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
     
         </>
     </div>
