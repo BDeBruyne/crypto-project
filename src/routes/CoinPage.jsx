@@ -20,7 +20,7 @@ const CoinPage = () => {
   }, [url]);
 
   return (
-    <div className='rounded-div my-6 py-8'>
+    <div className='rounded-div my-8 py-8'>
       <div className='flex py-8'>
         <img className='w-20 mr-8' src={coin.image?.large} alt='/' />
         <div>
