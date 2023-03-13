@@ -4,7 +4,7 @@ function AboutUs () {
   return (
     <div className='mt-8 max-w-[1140px] w-full mx-auto text-primary shadow-xl mb-8 border border-[#85bb65] p-3'>
         <div>
-            <p className='text-2xl items-center text-[#85bb65]'>About Us</p>
+            <p className=' items-center text-[#85bb65]'>About Us</p>
             <p className=''><br></br>
                 FinTech Media is a cutting-edge news site that provides timely, relevant, and insightful information on the latest developments 
                 in the world of cryptocurrency, business, and technology. &nbsp;As one of the leading sources of news and analysis in the FinTech space, 

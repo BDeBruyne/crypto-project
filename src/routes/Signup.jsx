@@ -25,7 +25,7 @@ const Signup = () => {
   return (
     <div className='rounded-div mt-8'>
       <div className='max-w-[400px] mx-auto min-h-[600px] px-4 py-20'>
-        <h1 className='text-2xl font-bold text-[#85bb65]'>Sign Up</h1>
+        <h1 className='text-2xl text-[#85bb65]'>Sign Up</h1>
         {error ? <p className='bg-red-300 p-3 my-2'>{error}</p> : null}
         <form onSubmit={handleSubmit}>
           <div className='my-4'>
