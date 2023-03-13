@@ -12,6 +12,9 @@ import { AuthContextProvider } from './context/AuthContext';
 import SearchCrypto from './routes/SearchCrypto';
 import Business from './routes/Business';
 import Tech from './routes/Tech';
+import AboutUs from './routes/AboutUs';
+import Careers from './routes/Careers';
+import Contact from './routes/Contact';
 
 
 function App() {
@@ -32,6 +35,9 @@ function App() {
       <AuthContextProvider>
         <Navbar />        
         <Routes>
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/careers' element={<Careers />} />
+          <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/' element={<Home />} />                
           <Route path='/business' element={<Business />} />
           <Route path='/tech' element={<Tech />} />
@@ -41,6 +47,8 @@ function App() {
           <Route path='/account' element={<Account />} />
           <Route path='/coin/:coinId' element={<CoinPage />}>
           <Route path=':coinId' />
+          
+          
           </Route>
         </Routes>
         <Footer />

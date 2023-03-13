@@ -1,23 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link,  useNavigate} from 'react-router-dom';
 import { AiOutlineInstagram } from 'react-icons/ai';
-import {
-  FaFacebookF,
-  FaTiktok,
-  FaTwitter,
-} from 'react-icons/fa';
-import { Link} from 'react-router-dom';
+import { FaFacebookF, FaTiktok, FaTwitter,} from 'react-icons/fa';
+
 
 const Footer = () => {
+
+ 
+  
+    const handleNav = () => {
+      setNav(!nav);
+    };const [nav, setNav] = useState(false);
+const navigate = useNavigate();
+
+
+
   return (
     <div className='px-2 max-w-[1140px] w-full mx-auto mt-8 pt-8 mb-12 text-primary border-t-2 border-[#85bb65]'>
       <div className='grid md:grid-cols-2'>
         <div className='flex justify-c w-full md:max-w-[300px] uppercase'>
           <div>            
-            <ul>
-              <li className='text-sm font-bold-light py-2 px-2'>About Us</li>
-              <li className='text-sm font-bold-light py-2 px-2'>Contact Us</li>
-              <li className='text-sm font-bold-light py-2 px-2'>Careers</li>              
-              <li className='text-sm font-bold-light py-2 px-2'>Legal</li>
+            <ul>  {/*<li onClick={handleNav} className='px-6 font-normal hover:text-[#85bb65]'>
+            <Link to='/'>Crypto</Link>
+          </li>          */}
+              <li onClick={handleNav}  className='text-sm font-bold-light py-2 px-2 hover:text-[#85bb65]'><Link to='AboutUs'>About</Link></li>
+              
+              <li onClick={handleNav} className='text-sm font-bold-light py-2 px-2 hover:text-[#85bb65]'><Link to='Careers'>Careers</Link></li>
+              <li onClick={handleNav} className='text-sm font-bold-light py-2 px-2 hover:text-[#85bb65]'><Link to='Contact'>Contact</Link></li>
             </ul>
           </div>
         </div>
