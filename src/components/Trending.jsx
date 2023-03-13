@@ -21,7 +21,7 @@ const Trending = () => {
               <iframe  width="100%" height="311px" className='flex pt-3 mt-1' src="https://www.youtube.com/embed/AiyQana_qvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; allow-full-screen; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen='allowFullScreen'></iframe>        
       </div>
       <div className='sm:w-[50%] pt-1 pb-3 px-3 '>
-        <h1 className='text-[15pt] font-bold pb-2 text-center text-[#070707]'>Trending Coins</h1>
+        <h1 className='text-[15pt] font-bold pb-2 text-center text-[#85bb65]'>Trending Coins</h1>
         <div className='grid grid-cols'>
           {trending.map((coin, idx) => (
             <div key={idx} className='border shadow-md px-2  w-full mx-auto border-[#85bb65] flex justify-between p-4 hover:scale-95 ease-in-out duration-300'>

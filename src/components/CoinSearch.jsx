@@ -6,8 +6,8 @@ const CoinSearch = ({ coins }) => {
   console.log(coins)
   return (
     <div className='rounded-div '>
-      <div className='flex flex-col md:flex-row justify-between pt-4 pb-6 text-center md:text-right'>
-        <h1 className='text-2xl font-bold my-2  text-[#070707]'>Search Crypto</h1>
+      <div className='flex flex-col md:flex-row justify-between pt-4 pl-2 pb-6 text-center md:text-right'>
+        <h1 className='text-2xl text-[#85bb65]'>Search Crypto's Top 100 </h1>
         <form>
           <input
             onChange={(e) => setSearchText(e.target.value)}

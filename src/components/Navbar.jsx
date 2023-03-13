@@ -94,6 +94,9 @@ const Navbar = () => {
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='/account'>Account</Link>
           </li>
+          <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
+            <Link to='/Contact'>Contact</Link>
+          </li>
         </ul>
         <div className='flex flex-col w-full p-4'>
           <Link to='/signin'>

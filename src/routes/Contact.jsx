@@ -5,7 +5,7 @@ const Contact = () => {
 
     <div className='rounded-div mt-6'>
     <div className=' max-w-[800px] mx-auto min-h-[600px] px-4 py-20'>
-      <h1 className='text-2xl font-bold text-[#85bb65]'>Contact</h1>
+      <h1 className='text-2xl text-[#85bb65]'>Contact</h1>
       <form  method='POST' action="https://getform.io/f/1adffb66-25b7-46a3-b8ab-c4b33bf32f05">
       <div className='my-4'>
           <label>Name</label>
