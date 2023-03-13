@@ -9,7 +9,7 @@ const CoinSearch = ({ coins }) => {
       <div className='flex flex-col md:flex-row justify-between pt-4 pl-2 pb-6 text-center md:text-right'>
         <div className='flex flex-col'>
         <h1 className='text-2xl text-[#85bb65]'>Top 100 Crypto Coins by Market Capitalization</h1>
-        <h2 className='text-xs text-[#85bb65]'>SELECT COIN FOR DETAILED VIEW</h2>
+        <h2 className='text-xs text-[#85bb65] sm:text-center'>SELECT COIN FOR DETAILED VIEW</h2>
         </div>
         <form>
           <input
