@@ -9,10 +9,10 @@ const Contact = () => {
                   <p className='text-2xl text-[#85bb65] '>Contact</p>
                   <p className='pb-6'>Get in touch by email or reach out on social media. <br></br></p>
               </div>
-              <input className='shadow-sm shadow-black bg-white p-2' type="text"  placeholder='Name' name='name'/>
+              <input className='shadow-sm shadow-black border-[#85bb65] b-2 bg-white p-2' type="text"  placeholder='Name' name='name'/>
               <input className='shadow-sm shadow-black my-4 p-2 bg-white' type="email" placeholder='Email' name='email'/>
               <textarea className='shadow-sm shadow-black bg-white p-2' name="message" rows="6" placeholder='Message'></textarea>
-              <button className='text-[#000000] text-lg hover:scale-90 hover:text-[#85bb65] duration-500  px-4 py-4 mx-auto flex items-center'>Submit</button>
+              <button className='text-[#000000] text-lg hover:scale-95 hover:text-[#85bb65] duration-100  px-4 py-4 mx-auto flex items-center'>Submit</button>
           </form>
         </div>
     </div>
