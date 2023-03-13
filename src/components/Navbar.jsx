@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { UserAuth } from '../context/AuthContext';
-import Logo from '../assets/finlogo2.png'
+import Logo from '../assets/fintecLogoWeb.jpg'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
