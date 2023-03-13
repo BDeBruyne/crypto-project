@@ -33,7 +33,7 @@ const Contact = () => {
         </textarea>
         </div>
 
-        <button className='w-[100px] my-2 p-3 bg-[#85bb65] text-white shadow-md hover:shadow-lg'>
+        <button className='w-[100px]  p-2 bg-[#85bb65] text-white shadow-md hover:shadow-lg'>
           Submit
         </button>
       </form>
