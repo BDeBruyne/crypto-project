@@ -48,7 +48,7 @@ const Navbar = () => {
           </li>
       </ul>
     </div>
-      {user?.email ? (
+     {/** {user?.email ? (
         <div>
           <Link to='/account' className='p-4 font-normal hover:text-accent'>
             Account
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to='/signup' className='bg-[#85bb65] text-white font-normal px-4 p-2 w-full shadow-md hover:shadow-lg md:w-auto my-2'>Sign up</Link>
         </div>
         
-      )}
+      )} */}
 
       {/* Menu Icon */}
       <div onClick={handleNav} className='block lg:hidden cursor-pointer z-10'>
@@ -91,14 +91,14 @@ const Navbar = () => {
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='SearchCrypto'>Crypto Search</Link>
           </li>         
-          <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
+          {/*<li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='/account'>Account</Link>
-          </li>
+          </li>*/}
           <li onClick={handleNav} className='border-b py-6 hover:text-[#85bb65] font-normal'>
             <Link to='/Contact'>Contact</Link>
           </li>
         </ul>
-        <div className='flex flex-col w-full p-4'>
+        {/*<div className='flex flex-col w-full p-4'>
           <Link to='/signin'>
             <button
               onClick={handleNav}
@@ -111,7 +111,7 @@ const Navbar = () => {
               Sign Up
             </button>
           </Link>
-        </div>
+        </div>*/}
       </div>
     </div>
   );

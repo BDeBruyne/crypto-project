@@ -19,9 +19,9 @@ const Account = () => {
   if (user) {
     return (
       <div className='max-w-[1140px] mx-auto'>
-        <div className='flex justify-between items-center my-6 py-8 rounded-div'>
+        <div className='flex justify-between items-center my-8 py-8 rounded-div'>
           <div>
-            <h1 className='text-2xl font-bold'>Account</h1>
+            <h1 className='text-2xl text-[#85bb65]'>Account</h1>
             <div>
               <p>Welcome, {user?.email}</p>
             </div>
@@ -36,7 +36,7 @@ const Account = () => {
         </div>
         <div className='flex justfiy-between items-center my-12 py-8 rounded-div'>
           <div className='w-full min-h-[300px]'>
-            <h1 className='text-2xl font-bold py-4'>Watch List</h1>
+            <h1 className='text-2xl text-[#85bb65] py-4'>Watch List</h1>
             <SavedCoin />
           </div>
         </div>

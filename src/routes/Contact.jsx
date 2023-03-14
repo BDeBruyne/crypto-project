@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='rounded-div mt-8'>
     <div className=' max-w-[800px] mx-auto min-h-[600px] px-4 py-20'>
       <h1 className='text-2xl text-[#85bb65]'>Contact</h1>
-      <form  method='POST' action="https://getform.io/f/1adffb66-25b7-46a3-b8ab-c4b33bf32f05">
+      <form  method='POST' action="https://getform.io/f/4a112e51-5a66-41c8-ae95-917c5c881b3e">
       <div className='my-4'>
           <label>Name</label>
           <div className='my-2 w-full relative shadow-md'>
